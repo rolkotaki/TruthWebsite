@@ -1,0 +1,427 @@
+
+.body_content {
+	width: 1020px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+.head {
+	position: fixed;
+	background-color: white;
+	width: 1020px;
+	overflow: hidden;
+	clear: both;
+}
+
+.logo_div {
+	margin-top: -25px;
+	margin-bottom: -25px;
+	padding: 0px;
+	clear: both;
+}
+
+.logo {
+	font-size: 37px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.date {
+	float: right;
+	margin-top: 0px;
+}
+
+.menu_div {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.menu_div a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_div a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+.menu_item {
+	padding: 4px 5px;
+}
+
+.page_title_h1 {
+	margin-bottom: 0px;
+}
+
+.right_content_div {
+	float: left	;
+	width: 200px;
+	max-width: 200px;
+	word-wrap: break-word;
+	padding: 20px 5px 20px 20px;
+	height: 100%;
+	margin-top: 110px;
+}
+
+.main_content_div {
+	float: left;
+	width: 775px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	word-wrap: break-word;
+	padding: 5px 15px 15px 0px;
+	overflow: hidden;
+	margin-top: 110px;
+}
+
+.leading_article_div {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 20px;
+}
+
+.leading_article_div article, .home_column_a_div article, .home_column_b_div article {
+	text-align: justify;
+	height: 370px;
+	overflow: hidden;
+}
+
+.leading_article h1 {
+	font-size: 30px;
+}
+
+.leading_figure {
+	float:left;
+	margin: 0px 15px 10px 0px;
+	width: 350px;
+}
+
+.leading_figure img {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.home_column_a_div, .home_column_b_div {
+	float: left;
+	width: 47%;
+	padding: 5px 0px 10px 0px;
+}
+
+.home_article_div {
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.home_column_a_div {
+	margin-right: 30px;
+}
+
+.figure {
+	float: left;
+	margin: 0px 10px 7px 0px;
+	padding:0px;
+	width: 200px;
+}
+
+.figure img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.footer {
+	position: relative;
+	bottom: 0;
+	float: left;
+	padding: 8px;
+	background-color: #D8D8D8;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	max-height: 15px;
+}
+
+a {
+	text-decoration:none;
+}
+
+.link_page_article_title {
+	color: black;
+}
+
+.link_page_article_title:hover {
+	color: blue;
+}
+
+/* Registration */
+
+.registration_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.admin_add_article_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.admin_change_pwd_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.admin_login_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.admin_categories_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.admin_articles_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.registration_div form, .admin_login_div form {
+	width: 350px;
+	text-align: left;
+	display: inline-block;
+}
+
+.registration_div form td, .admin_login_div form td, .admin_change_pwd_div form td, .admin_categories_div fieldset td, .admin_add_article_div form td, .admin_articles_div fieldset td {
+	text-align: left;
+	padding: 5px 15px 5px 0px;
+}
+
+/* Pages */
+
+.page_content_div {
+	float: left;
+	width: 775px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	word-wrap: break-word;
+	padding: 5px 15px 15px 0px;
+	overflow: hidden;
+	margin-top: 110px;
+}
+
+.article_normal_div {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 20px;
+}
+
+.article_normal {
+	text-align: justify;
+	height: 280px;
+	overflow: hidden;
+}
+
+.figure_normal {
+	float: left;
+	width: 260px;
+	padding: 0px 25px 0px 0px;
+	margin: 0px;
+}
+
+.figure_normal img {
+	width: 100%;
+}
+
+.page_list_div {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.page_list {
+	color: black;
+	font-weight: bold;
+}
+
+/* Articles */
+
+.full_article_title {
+	font-size: 28px;
+}
+
+.article_date, .article_source {
+	color: #6E6E6E;
+	margin-top: -10px;
+	padding-bottom: 0px;
+}
+
+.full_article {
+	margin-bottom: 35px;
+}
+
+.full_article_content {
+	text-align: justify;
+	padding-top: 0px;
+}
+
+.full_article_figure {
+	width: 550px;
+	margin: auto;
+	padding: 5px 0px;
+}
+
+.full_article_figure img {
+	width: 100%;
+}
+
+.video {
+	text-align: center;
+}
+
+/* Comment */
+
+.article_comments {
+	/* margin-bottom: 5px; */
+}
+
+.comment_form {
+	margin-bottom: 40px;
+}
+
+.single_comment {
+	border: 1px solid grey;
+	border-radius: 10px;
+	background-color: #F2F2F2;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 15px 0px 0px 0px;
+}
+
+.comment_user {
+	float: left;
+	font-weight: bold;
+}
+
+.comment_date {
+	float: right;
+	color: #6E6E6E;
+}
+
+.comment_paragraph {
+	clear: both;
+	text-align: justify;
+	
+}
+
+/* Admin */
+
+.admin_change_pwd_div form, .admin_categories_div fieldset, .admin_articles_div fieldset {
+	width: 400px;
+	text-align: left;
+	display: inline-block;
+}
+
+/* .admin_add_article_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	text-align: center;
+} */
+
+.admin_add_article_div form {
+	width: 100%;
+	text-align: left;
+	display: inline-block;
+}
+
+.admin_add_article_div form select {
+	width: 170px;
+}
+
+.admin_images_div {
+	float: left;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	height: 100%;
+	margin-top: 110px;
+	/* text-align: center; */
+}
+
+.form_manage_article {
+/*    text-align: left;
+    display: inline;*/
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.form_manage_article input {
+    margin-right: 8px;
+}
+
+#upload_image {
+	width: 300px;
+	text-align: left;
+	display: inline-block;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#manage_images {
+	width: 500px;
+}
+
+
+/* .admin_add_article_div form td {
+	text-align: left;
+	padding: 5px 15px 5px 0px;
+} */
+
+
+
+
+
+
+
+
+
